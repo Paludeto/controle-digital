@@ -1,0 +1,36 @@
+# --- MATLAB / Simulink: arquivos gerados automaticamente ---
+
+# Cache e código gerado pelo Simulink
+slprj/
+sccprj/
+*.slxc
+*.autosave
+
+# Cache do Simulink extraído (mesmo conteúdo interno de diagrama.slxc)
+/diagrama/
+
+# Autosave do editor
+*.asv
+*.m~
+
+# Binários MEX compilados
+*.mex*
+
+# Código gerado pelo MATLAB Coder
+codegen/
+
+# Pastas de busca de ajuda geradas
+helpsearch*/
+
+# Pacotes de apps/toolboxes
+*.mlappinstall
+*.mltbx
+
+# Octave
+octave-workspace
+
+# --- Sistema operacional / editores ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

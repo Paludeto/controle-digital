@@ -1,0 +1,9 @@
+# Arquivos do MATLAB/Simulink são pacotes zip: nunca tratar como texto
+*.mlx binary
+*.slx binary
+*.mat binary
+*.fig binary
+
+# Documentos e imagens
+*.pdf binary
+*.png binary

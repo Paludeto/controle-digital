@@ -19,14 +19,11 @@ Cada projeto fica em sua própria pasta (`projeto_N/`), com o mesmo padrão:
 
 ```
 projeto_N/
-├── README.md          # descrição, resultados e como executar
 ├── enunciado.pdf      # enunciado fornecido pelo professor
 ├── projeto_N.mlx      # live script com o desenvolvimento do projeto
 ├── *.slx              # modelo(s) do Simulink
 └── figuras/           # gráficos exportados
 ```
-
-Arquivos gerados automaticamente pelo Simulink (`slprj/`, `*.slxc`) não são versionados. Veja o [`.gitignore`](.gitignore).
 
 ## Licença
 

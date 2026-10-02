@@ -13,7 +13,9 @@ for k = 1:numel(arqs)
     S      = load(fullfile(pasta, arqs(k).name));
     campos = fieldnames(S);
 
-    figure('Name', arqs(k).name), hold on, grid on
+    fig = figure('Name', arqs(k).name);
+    theme(fig, 'light')
+    hold on, grid on
 
     for c = 1:numel(campos)
         v = S.(campos{c});
